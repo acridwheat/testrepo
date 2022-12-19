@@ -1,0 +1,10 @@
+birth_year = input('Which year were you born in? ')
+current_year = input('What is the current year? ')
+print(type(current_year))
+age = int(current_year) - int(birth_year)
+print(type(age))
+print('Your age is ' + str(age))
+
+weight = input('What is your weight in pounds? ')
+print("Your weight in kilograms is: ")
+print(float(weight)*0.453592)
